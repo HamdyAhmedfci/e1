@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    direction: rtl;
+    background-color: rgb(255, 255, 255);
+}
+.r {
+    float: right;
+}
+.l {
+    float: left;
+}
+.c {
+    clear: both;
+}
+.w {
+    width: 1000px;
+    margin: 0px auto;
+}
+header {
+ width: 100%;
+ height: 80px;
+ background-color: rgb(255, 255, 255); 
+ background-image: url('../images/one\ e.png');  
+ background-repeat: no-repeat;
+ background-position: right;
+}
+
+/* ------------------------    menu    ------------------------- */
+
+nav {
+    /* background-image: url(../images/bg-grass.jpg); */
+    background-color: #333;
+    min-height: 80px;
+    line-height: 50px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    padding: 15px 15px;
+    margin-left: 15px;
+    float: right;
+}
+nav ul li a {
+    text-decoration: none;
+    /* background-color: rgb(195, 1, 1); */
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+    padding: 15px 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    color: rgb(195, 1, 1);
+    background-color: aliceblue;
+}
+/* ------------------------  Search    ----------------- */
+.search {
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+    border-bottom: 2px solid #444;
+}
+
+.formsearch {
+    line-height: 50px;
+    margin-left: 20px;
+}
+.formsearch form input {
+    width: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+}
+.formsearch form .inp {
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.social ul {
+    list-style: none;
+}
+.social ul li {
+    color: #333;
+    float: left;
+    line-height: 50px;
+}
+.social ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+/* -------------------  product  ------------- */
+
+.product {
+    margin: 0;
+    /* margin-right: 100px; */
+    padding: 0;
+}
+.product ul {
+    list-style: none;
+}
+.product ul li {
+    float: right;
+    /* margin-left: 13px; */
+    margin: 15px 10px;
+}
+.product ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: tahoma;
+}
+#pro_img img{
+border-radius: 8px;
+}
+#pro_img img:hover {
+    opacity: 0.7;
+}
+#pro_title {
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#pro_bay {
+    float: left;
+    margin: -20px;
+    margin-left: 10px;
+}
+#pro_bay button {
+    width: 80px;
+    font-size: 15px;
+    padding: 4px 7px;
+    background-color: aliceblue;
+    color: crimson;
+    font-weight: bold;
+}
+#pro_bay button:hover {
+    color: aliceblue;
+    background-color: crimson;
+}
+/* -------------  footer -----------*/
+
+.footer {
+    background-color: #999;
+    padding: 25px 10px;
+}
+/* .footerMenu {
+    float: right;
+    margin-left: 10px;
+} */
+.footerMenu ul {
+    list-style: none;
+}
+.footerMenu ul li{
+float: right;
+padding: 10px;
+margin-top: 5px;
+
+}
+.footerMenu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #fff;
+}
+.footerMenu ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.copyright {
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+    font-family: tahoma;
+    text-align: center;
+    padding: 20px;
+}
+/* --------------------------   error   ----------- */
+.error {
+    background-color: rgb(64, 52, 52);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+    font-family: tahoma;
+}
+/* ------------------------   card  ---------------- */
+.card {
+    line-height: 45px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: tahoma;   
+}
+.card a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.card a:hover {
+    color: rgb(255, 0, 0);
+}
+/* -----------------  details ------------------- */
+/* .panal {
+    border-left: 3px solid #eee;
+    padding-right: 2px;
+} */
+
+.proTitle {
+    background-color: rgb(96, 96, 96);
+    color: #fff;
+    font-size: 12px;
+    font-family: tahoma;
+    font-weight: bold;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+.proBody {
+    /* background-color: #f5f5f5; */
+    /* color: #fff; */
+    font-size: 12px;
+    font-family: tahoma;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#det {
+    padding: 10px;
+    font-size: 12px;
+    font-family: tahoma;
+    border-bottom: 1px solid #ddd;
+}
+/* -----------------  cart.php  ---------- */
+
+.tbl tr td,th {
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+
+.panalTitle {
+    background-color: rgb(96, 96, 96);
+    color: #fff;
+    font-size: 12px;
+    font-family: tahoma;
+    font-weight: bold;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.panalBody {
+    font-size: 12px;
+    font-family: tahoma;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 1px solid rgb(166, 166, 166);
+    padding: 10px;
+}
+.panalBody div {
+    font-size: 12px;
+    font-family: tahoma;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.panal input[type=text] {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.panal input[type=submit] {
+    /* width: 40px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* height: 30px; */
+    font-size: 15px;
+    font-weight: bold;
+    font-family: tahoma;
+    padding: 7px 10px;
+    margin:0px 220px;
+}

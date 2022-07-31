@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.c {
+    clear: both;
+}
+
+body {
+    background-color: #dcdcdc;
+    direction: rtl;
+}
+.login {
+    background-color: #ffffff;
+    width: 600px;
+    margin: 150px auto;
+    padding: 5px ;
+}
+.login form {
+    margin: 70px auto;
+    text-align: center;
+}
+
+input[type=text] {
+padding: 10px;
+width: 400px;
+border: 1px solid #ccc;
+background-color: rgb(248, 245, 245);
+margin-bottom: 20px;
+font-size: 15px;
+font-family: tahoma;
+}
+
+input[type=file] {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    background-color: rgb(248, 245, 245);
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: tahoma;
+    }
+
+input[type=password] {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    background-color: rgb(248, 245, 245);
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: tahoma;
+}
+
+input[type=submit] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #217aad;
+    background-color: #51a9dc;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: tahoma;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* -------------------------  Ok Page ------------- */
+.ok {
+    width: 100%;
+    background-color: #27ae60;
+    color: #fff;
+    font-size: 15px;
+    font-family: tahoma;
+    font-weight: bold;
+    border:2px solid #10ac84 ;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ---------------------  Admin Menu  --------------- */
+.menu {
+    width: 650px;
+    margin: 50px auto;
+}
+.adminMenu ul{
+    list-style: none;
+    overflow: hidden;
+}
+.adminMenu ul li{
+    float: right;
+    margin-left: 12px;
+    padding: 9px;
+    background-color: #4cb9eb;
+    margin-bottom: 10px;
+}
+.adminMenu ul li a{
+    text-decoration: none;
+    padding: 9px;
+    font-size: 13px;
+    font-family: tahoma ;
+    font-weight: bold;
+    color: #fff;
+}
+
+.adminMenu ul li:hover{
+    color: #4cb9eb;
+    background-color: rgb(141, 141, 141);
+}
+.adminBody {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-right: -10px;
+    border: 2px solid #ddd;
+}
+label {
+    font-size: 15px;
+    font-family: tahoma;
+    font-weight: bold;
+    margin: 5px;
+}
+select {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    background-color: rgb(248, 245, 245);
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: tahoma;
+}
+
+textarea {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    background-color: rgb(248, 245, 245);
+    margin-bottom: -20px;
+    margin-right: 50px;
+    font-size: 15px;
+    font-family: tahoma;
+}
+input {
+    margin-right: 50px;
+}
